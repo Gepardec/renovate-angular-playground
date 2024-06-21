@@ -1,5 +1,17 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "separateMajorMinor": true,
-  "separateMultipleMajor": true
+  "separateMultipleMajor": true,
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*angular*"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "groupName": "all major angular",
+      "groupSlug": "all-minor-patch"
+    }
+  ]
 }
