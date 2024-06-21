@@ -4,14 +4,14 @@
   "separateMultipleMajor": true,
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*angular*"
-      ],
+      "extends": "monorepo:angular",
+      "groupName": "angular monorepo",
       "matchUpdateTypes": [
+        "digest",
+        "patch",
+        "minor",
         "major"
-      ],
-      "groupName": "all major angular",
-      "groupSlug": "all-minor-patch"
+      ]
     }
   ]
 }
