@@ -11,7 +11,10 @@
         "patch",
         "minor",
         "major"
+      ],
+      "matchPackagePatterns": [
+        "*typescript*"
       ]
     }
-  ]
+  ] 
 }
