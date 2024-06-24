@@ -13,7 +13,7 @@
         "major"
       ],
       "matchPackagePatterns": [
-        "*typescript*"
+        "/*typescript*/"
       ]
     }
   ] 
