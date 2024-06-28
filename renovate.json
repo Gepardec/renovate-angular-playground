@@ -4,20 +4,12 @@
   "separateMultipleMajor": true,
   "packageRules": [
     {
+      "groupName": "angular",
       "matchPackagePrefixes": [
         "@angular",
         "typescript",
         "zone"
-      ],
-      "postUpgradeTasks": {
-        "commands": [
-          "npm ci --ignore-scripts", 
-          "npx ng update {{{depName}}} --from={{{currentVersion}}} --to={{{newVersion}}} --migrate-only --allow-dirty --force"
-        ],
-        "fileFilters": [
-          "**/**"
-        ]
-      }
+      ]
     }
   ]
 }
