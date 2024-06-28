@@ -1,12 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "separateMultipleMajor": true,
   "packageRules": [
     {
       "groupName": "angular-monorepo",
-      "matchSourceUrls": [
-        "https://github.com/angular/angular"
-      ],
       "matchPackagePrefixes": [
+        "@angular/",
         "typescript",
         "zone.js"
       ],
