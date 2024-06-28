@@ -27,7 +27,7 @@
         "npm"
       ],
       "groupName": "zonejs",
-      "groupSlug": "major-angular-monorepo",
+      "groupSlug": "major-15-angular-monorepo",
       "matchUpdateTypes": [
         "major",
         "minor",
