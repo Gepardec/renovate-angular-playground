@@ -5,16 +5,17 @@
   "packageRules": [
     {
       "extends": "monorepo:angular",
-      "groupName": "angular monorepo",
+      "groupName": "angular-monorepo",
+      "matchPackagePrefixes": [
+        "@angular/",
+        "typescript"
+      ],
       "matchUpdateTypes": [
         "digest",
         "patch",
         "minor",
         "major"
-      ],
-      "matchPackagePatterns": [
-        "/*typescript*/"
       ]
     }
-  ] 
+  ]
 }
