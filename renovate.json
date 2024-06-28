@@ -6,8 +6,9 @@
       "matchPackagePrefixes": [
         "@angular/",
         "typescript",
-        "zone.js"
+        "zone"
       ],
+      "allowedVersions": "<16.0.0",
       "matchUpdateTypes": [
         "digest",
         "patch",
