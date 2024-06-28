@@ -3,9 +3,12 @@
   "packageRules": [
     {
       "groupName": "angular-monorepo",
+      "matchSourceUrls": [
+        "https://github.com/angular/angular"
+      ],
       "matchPackagePrefixes": [
-        "@angular/",
-        "typescript"
+        "typescript",
+        "zone.js"
       ],
       "matchUpdateTypes": [
         "digest",
