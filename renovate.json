@@ -1,10 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "separateMajorMinor": true,
   "separateMultipleMajor": true,
   "packageRules": [
     {
       "matchPackageNames": [
-        "@angular/core"
+        "@angular",
+        "typescript",
+        "zone"
       ],
       "postUpgradeTasks": {
         "commands": [
