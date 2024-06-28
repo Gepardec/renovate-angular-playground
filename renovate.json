@@ -9,7 +9,7 @@
       "matchPackagePrefixes": [
         "@angular/"
       ],
-      "matchPackagePatterns": [
+      "matchPackageNames": [
         "typescript"
       ],
       "matchUpdateTypes": [
