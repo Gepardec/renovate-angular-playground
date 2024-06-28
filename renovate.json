@@ -1,16 +1,25 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "separateMultipleMajor": true,
+  "allowedPostUpgradeCommands": [
+    "npm ci --ignore-scripts",
+    "npx ng update {{{depName}}} --from={{{currentVersion}}} --to={{{newVersion}}} --migrate-only --allow-dirty --force"
+  ],
+  "allowPostUpgradeCommandTemplating": true,
   "packageRules": [
     {
-      "groupName": "angular-monorepo",
-      "matchPackagePrefixes": [
-        "@angular/",
-        "zone",
-        "typescript"
+      "matchPackageNames": [
+        "@angular/core"
       ],
-      "matchUpdateTypes": [
-        "major"
-      ]
+      "postUpgradeTasks": {
+        "commands": [
+          "npm ci --ignore-scripts",
+          "npx ng update {{{depName}}} --from={{{currentVersion}}} --to={{{newVersion}}} --migrate-only --allow-dirty --force"
+        ],
+        "fileFilters": [
+          "**/**"
+        ]
+      }
     }
   ]
 }
