@@ -1,14 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "separateMultipleMajor": true,
   "packageRules": [
     {
-      "extends": "monorepo:angular",
       "groupName": "angular-monorepo",
       "matchPackagePrefixes": [
-        "@angular/"
-      ],
-      "matchPackageNames": [
+        "@angular/",
         "typescript"
       ],
       "matchUpdateTypes": [
