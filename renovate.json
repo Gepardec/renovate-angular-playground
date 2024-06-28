@@ -22,7 +22,7 @@
         "@ngrx"
       ]
     },
-        {
+    {
       "matchManagers": [
         "npm"
       ],
@@ -39,6 +39,25 @@
       ],
       "matchPackagePatterns": [
         "zone.js"
+      ]
+    },
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "groupName": "typescript",
+      "groupSlug": "major-15-angular-monorepo",
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies"
+      ],
+      "matchPackagePatterns": [
+        "typescript"
       ]
     }
   ]
