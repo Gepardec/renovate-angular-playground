@@ -8,7 +8,6 @@
         "typescript",
         "zone"
       ],
-      "allowedVersions": "<16.0.0",
       "matchUpdateTypes": [
         "digest",
         "patch",
