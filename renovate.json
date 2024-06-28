@@ -4,7 +4,7 @@
   "separateMultipleMajor": true,
   "packageRules": [
     {
-      "matchPackageNames": [
+      "matchPackagePrefixes": [
         "@angular",
         "typescript",
         "zone"
