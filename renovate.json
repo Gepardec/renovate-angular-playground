@@ -1,19 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "packageRules": [
-    {
-      "groupName": "angular-monorepo",
-      "matchPackagePrefixes": [
-        "@angular/",
-        "typescript",
-        "zone"
-      ],
-      "matchUpdateTypes": [
-        "digest",
-        "patch",
-        "minor",
-        "major"
-      ]
-    }
-  ]
+  "extends": ["github>Angular-RU/angular-renovate-config"]
 }
