@@ -6,9 +6,11 @@
     {
       "groupName": "angular",
       "matchPackagePrefixes": [
-        "@angular",
+        "@angular"
+      ],
+      "matchPackageNames": [
         "typescript",
-        "zone"
+        "zone.js"
       ]
     }
   ]
