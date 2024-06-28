@@ -7,7 +7,9 @@
       "extends": "monorepo:angular",
       "groupName": "angular-monorepo",
       "matchPackagePrefixes": [
-        "@angular/",
+        "@angular/"
+      ],
+      "matchPackagePatterns": [
         "typescript"
       ],
       "matchUpdateTypes": [
