@@ -4,12 +4,40 @@
   "separateMultipleMajor": true,
   "packageRules": [
     {
-      "groupName": "angular",
-      "matchPackagePrefixes": [
-        "@angular"
+      "matchManagers": [
+        "npm"
       ],
-      "matchPackageNames": [
-        "typescript",
+      "groupName": "angular monorepo",
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies"
+      ],
+      "matchPackagePatterns": [
+        "angular",
+        "@ngrx"
+      ]
+    },
+        {
+      "matchManagers": [
+        "npm"
+      ],
+      "groupName": "zonejs",
+      "groupSlug": "major-angular-monorepo",
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies"
+      ],
+      "matchPackagePatterns": [
         "zone.js"
       ]
     }
