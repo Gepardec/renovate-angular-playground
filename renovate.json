@@ -8,7 +8,6 @@
         "npm"
       ],
       "groupName": "angular monorepo",
-      "groupSlug": "major-angular-monorepo",
       "matchUpdateTypes": [
         "major",
         "minor",
@@ -28,7 +27,7 @@
         "npm"
       ],
       "groupName": "zonejs",
-      "groupSlug": "major-angular-monorepo",
+      "groupSlug": "major-15-angular-monorepo",
       "matchUpdateTypes": [
         "major",
         "minor",
@@ -47,7 +46,7 @@
         "npm"
       ],
       "groupName": "typescript",
-      "groupSlug": "major-angular-monorepo",
+      "groupSlug": "major-15-angular-monorepo",
       "matchUpdateTypes": [
         "major",
         "minor",
