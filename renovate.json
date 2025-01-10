@@ -6,8 +6,7 @@
     {
       "extends": [
         "monorepo:angular",
-        "monorepo:angular-cli",
-        "monorepo:angularmaterial"
+        "monorepo:angular-cli"
       ],
       "matchUpdateTypes": [
         "major",
