@@ -7,7 +7,6 @@
       "matchManagers": [
         "npm"
       ],
-      "groupName": "angular monorepo",
       "matchUpdateTypes": [
         "major",
         "minor",
@@ -20,7 +19,9 @@
       "matchPackagePatterns": [
         "angular",
         "@ngrx"
-      ]
+      ],
+      "groupName": "Angular Dependencies",
+      "groupSlug": "angular_{{currentVersion}}_{{newVersion}}"
     }
   ]
 }
