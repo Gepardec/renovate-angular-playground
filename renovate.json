@@ -5,30 +5,8 @@
   "packageRules": [
     {
       "extends": [
-        "monorepo:angular"
-      ],
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "patch"
-      ],
-      "groupName": "Angular Dependencies",
-      "groupSlug": "angular_{{currentVersion}}_{{newVersion}}"
-    },
-    {
-      "extends": [
-        "monorepo:angular-cli"
-      ],
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "patch"
-      ],
-      "groupName": "Angular Dependencies",
-      "groupSlug": "angular_{{currentVersion}}_{{newVersion}}"
-    },
-    {
-      "extends": [
+        "monorepo:angular",
+        "monorepo:angular-cli",
         "monorepo:angularmaterial"
       ],
       "matchUpdateTypes": [
