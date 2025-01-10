@@ -1,20 +1,26 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "separateMajorMinor": false,
-  "separateMultipleMajor": false,
+  "separateMajorMinor": true,
+  "separateMultipleMajor": true,
   "packageRules": [
     {
-      "extends": [
-        "monorepo:angular",
-        "monorepo:angular-cli"
+      "matchManagers": [
+        "npm"
       ],
+      "groupName": "angular monorepo",
       "matchUpdateTypes": [
         "major",
         "minor",
         "patch"
       ],
-      "groupName": "Angular Dependencies",
-      "groupSlug": "angular_{{currentVersion}}_{{newVersion}}"
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies"
+      ],
+      "matchPackagePatterns": [
+        "angular",
+        "@ngrx"
+      ]
     }
   ]
 }
