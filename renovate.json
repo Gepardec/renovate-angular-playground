@@ -4,20 +4,13 @@
   "separateMultipleMajor": false,
   "packageRules": [
     {
-      "matchManagers": [
-        "npm"
+      "extends": [
+        "monorepo:angular"
       ],
       "matchUpdateTypes": [
         "major",
         "minor",
         "patch"
-      ],
-      "matchDepTypes": [
-        "dependencies",
-        "devDependencies"
-      ],
-      "matchPackagePatterns": [
-        "angular"
       ],
       "groupName": "Angular Dependencies",
       "groupSlug": "angular_{{currentVersion}}_{{newVersion}}"
