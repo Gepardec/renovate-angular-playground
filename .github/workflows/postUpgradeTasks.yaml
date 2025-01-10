@@ -46,6 +46,7 @@ jobs:
           node -v
           npm -v
           npm install -g @angular/cli@^${NEW_MAJOR}
+          npm ci
           ng update @angular/core@^${NEW_MAJOR} @angular/cli@^${NEW_MAJOR} --create-commits
           ng update @angular/material@^${NEW_MAJOR} --create-commits
 
