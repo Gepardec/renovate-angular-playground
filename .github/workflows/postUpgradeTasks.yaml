@@ -48,7 +48,7 @@ jobs:
           npm install -g @angular/cli@^${NEW_MAJOR}
           npm ci
           ng update @angular/core@^${NEW_MAJOR} @angular/cli@^${NEW_MAJOR}
-          ng update @angular/material@^${NEW_MAJOR}
+          ng update @angular/material@^${NEW_MAJOR} --allow-dirty
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
