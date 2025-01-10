@@ -21,7 +21,8 @@
         "@ngrx"
       ],
       "groupName": "Angular Dependencies",
-      "groupSlug": "angular_{{newMajor}}"
+      "groupSlug": "angular_{{newMajor}}",
+      "branchName": "renovate/{{groupSlug}}"
     }
   ]
 }
