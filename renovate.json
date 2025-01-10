@@ -21,7 +21,7 @@
         "@ngrx"
       ],
       "groupName": "Angular Dependencies",
-      "groupSlug": "angular_{{currentVersion}}_{{newMajor}}"
+      "groupSlug": "angular_{{newMajor}}"
     }
   ]
 }
