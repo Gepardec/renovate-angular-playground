@@ -1,26 +1,3 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "separateMajorMinor": true,
-  "separateMultipleMajor": true,
-  "packageRules": [
-    {
-      "matchManagers": [
-        "npm"
-      ],
-      "groupName": "angular monorepo",
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "patch"
-      ],
-      "matchDepTypes": [
-        "dependencies",
-        "devDependencies"
-      ],
-      "matchPackagePatterns": [
-        "angular",
-        "@ngrx"
-      ]
-    }
-  ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
 }
