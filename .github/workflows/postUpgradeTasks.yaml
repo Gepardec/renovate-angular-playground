@@ -47,8 +47,8 @@ jobs:
           npm -v
           npm install -g @angular/cli@^${NEW_MAJOR}
           npm ci
-          ng update @angular/core@^${NEW_MAJOR} @angular/cli@^${NEW_MAJOR} --create-commits
-          ng update @angular/material@^${NEW_MAJOR} --create-commits
+          ng update @angular/core@^${NEW_MAJOR} @angular/cli@^${NEW_MAJOR}
+          ng update @angular/material@^${NEW_MAJOR}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
