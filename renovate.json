@@ -5,7 +5,9 @@
   "packageRules": [
     {
       "extends": [
-        "monorepo:angular"
+        "monorepo:angular",
+        "monorepo:angular-cli",
+        "monorepo:angularmaterial"
       ],
       "matchUpdateTypes": [
         "major",
