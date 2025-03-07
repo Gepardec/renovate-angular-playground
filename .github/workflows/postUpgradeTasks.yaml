@@ -45,13 +45,11 @@ jobs:
           ls -al
           node -v
           npm -v
-#         might be omitted
           npm install -g @angular/cli@^${NEW_MAJOR}
           npm ci
-#         git user should be configured to use flag --create-commits
           ng update @angular/core@^${NEW_MAJOR} @angular/cli@^${NEW_MAJOR}
           ng update @angular/material@^${NEW_MAJOR} --allow-dirty
-#         execute 'ng build'
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
